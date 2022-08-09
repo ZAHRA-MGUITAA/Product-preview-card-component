@@ -8,30 +8,20 @@ body {
 
 /*container*/
 
-.container {  
-
-    /* try this if you want to center div */
-
-    /* position: absolute;
+.container {
+    /* margin-left: auto;
+    margin-right: auto; */
+    position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%); */
-
-    margin-left: auto; /* remove this */
-    margin-right: auto;
-
-    /* 
-        when you want to use marginLeft & right do like this ==>
-        margin: top right bottom left [ ex ( margin: 4px 3px 2px 7px ) ]
-    */
+    transform: translate(-50%, -50%);
 }
 
 .home {
-    margin: 200; /*  not important */
+    /* margin: 200px; */
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    /* gap: 10px 10px; */
     width: 800px;
     background: hsl(30, 38%, 92%);
 }
@@ -41,15 +31,13 @@ body {
     background: hsl(0, 0%, 100%);
     padding: 20px 50px 20px 50px;
     width: 80%;
-    position: relative; /* this is not important here */
 }
 
 .section1 img {
     width: 100%;
     height: 100%;
     border-radius: 15px 0 0 15px;
-
-    object-fit: cover; /* add this to avoid image pixels */
+    object-fit: cover;
 }
 
 .title1 {
