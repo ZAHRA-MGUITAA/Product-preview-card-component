@@ -13,12 +13,11 @@ body {
     /* try this if you want to center div */
 
     /* position: absolute;
-    top: -50%;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%); */
 
-    margin-left: auto;
+    margin-left: auto; /* remove this */
     margin-right: auto;
 
     /* 
@@ -28,7 +27,7 @@ body {
 }
 
 .home {
-    margin: 200; /*  important */
+    margin: 200; /*  not important */
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
